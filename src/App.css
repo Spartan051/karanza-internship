@@ -1,0 +1,64 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vw;
+}
+
+.user {
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: #b3e3ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 500px;
+  height: 300px;
+  margin: 20px;
+}
+
+.paginationBttns {
+  width: 80%;
+  height: 40px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.paginationBttns a {
+  padding: 10px;
+  margin: 8px;
+  border-radius: 5px;
+  border: 1px solid rgb(13, 50, 63);
+  color: rgb(13, 50, 63);
+  cursor: pointer;
+}
+
+.paginationBttns a:hover {
+  color: white;
+  background-color: rgb(25, 93, 117);
+}
+
+.paginationActive a {
+  color: white;
+  background-color: rgb(13, 50, 63);
+}
+
+.paginationDisabled a {
+  color: white;
+  background-color: rgb(13, 50, 63);
+}
+.nfound {
+  display: flex;
+  position: relative;
+  top: 150px;
+  flex-direction: column;
+  align-items: center;
+}
+.back {
+  cursor: pointer;
+  width: 50px;
+  height: 35px;
+}

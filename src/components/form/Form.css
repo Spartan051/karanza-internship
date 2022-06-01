@@ -1,0 +1,55 @@
+.form {
+  display: flex;
+  width: 1000px;
+  margin: 25px 140px;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+.form input {
+  width: 140px;
+  height: 40px;
+  border: none;
+  border-bottom: 1px solid rgb(13, 50, 63);
+  outline: none;
+  background: transparent;
+  border-radius: 10px;
+  direction: rtl;
+  font-size: 1.2rem;
+  text-align: center;
+}
+.form input::placeholder {
+  color: rgb(13, 50, 63);
+}
+.submit {
+  animation: ok 0.5s infinite alternate;
+  border-radius: 20px !important;
+}
+@keyframes ok {
+  from {
+    box-shadow: 0px 0px 20px -10px rgb(13, 50, 63);
+  }
+  to {
+    box-shadow: 0px 0px 20px 10px rgb(89, 138, 156);
+  }
+}
+
+.submit {
+  justify-content: center;
+  font-size: 1.5rem !important;
+  width: 90px !important;
+  background-color: rgb(48, 115, 139) !important;
+}
+.submit:hover {
+  cursor: pointer;
+}
+.backward {
+  display: none;
+  color: blue;
+  background: transparent;
+  border: none;
+  position: absolute;
+  left: 1200px;
+}
+.backward:hover {
+  cursor: pointer;
+}
